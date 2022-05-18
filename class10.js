@@ -30,7 +30,6 @@ console.log(phonePattern.test(bdPhone));
 // =====================
 
 let pass= 'Razzak75!@#%!*&(`<?'
-// Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character
 let passPattern= /^[A-Za-z0-9~`!@#$%^&*()_<>?+=]{8,}$/
 console.log(passPattern.test(pass));
 
